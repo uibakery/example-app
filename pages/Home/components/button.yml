@@ -1,0 +1,27 @@
+id: '16744781203550.5368677783364821'
+definitionId: button
+parentSlotId: '2'
+styles:
+  xl:
+    iconPlacement: left
+properties:
+  name: button
+  gridItem:
+    x: 21
+    y: 0
+    w: 3
+    h: 2
+    maxH: 2
+    minH: 2
+    minW: 2
+  text: Reload
+  icon:
+    value: refresh
+    dataValue: star-outline
+    withData: false
+  status:
+    value: info
+    dataValue: primary
+    withData: false
+index: 2
+slots: []

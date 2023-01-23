@@ -1,0 +1,304 @@
+id: '16744780850000.26953072446920934'
+definitionId: smartTable
+parentSlotId: '2'
+styles:
+  xl: {}
+properties:
+  data: '{{actions.loadUsers.data}}'
+  name: usersTable
+  gridItem:
+    x: 0
+    y: 2
+    w: 24
+    h: 32
+    minH: 2
+    minW: 2
+  title: Users
+  showLoading:
+    withData: true
+    dataValue: '{{actions.loadUsers.loading}}'
+    value: false
+  limit: '11'
+actions: {}
+index: 0
+slots:
+  - id: '16744780850000.08991730733256009'
+    name: columns
+    children:
+      - id: '16744780972470.8517626673954339'
+        definitionId: atomicNumber
+        parentSlotId: '16744780850000.08991730733256009'
+        styles:
+          xl:
+            visible: true
+        properties:
+          name: atomicNumber
+          prop: id
+          primaryKey: true
+          width: 60
+          filter: true
+        index: 0
+        slots: []
+      - id: '16744780972470.6696251630534482'
+        definitionId: atomicString
+        parentSlotId: '16744780850000.08991730733256009'
+        styles:
+          xl:
+            visible: true
+        properties:
+          name: atomicString
+          prop: name
+          primaryKey: false
+          width: 120
+          filter: true
+        index: 1
+        slots: []
+      - id: '16744780972470.3613195683346675'
+        definitionId: atomicString
+        parentSlotId: '16744780850000.08991730733256009'
+        styles:
+          xl:
+            visible: true
+        properties:
+          name: atomicString2
+          prop: first_name
+          primaryKey: false
+          width: 120
+          filter: true
+        index: 2
+        slots: []
+      - id: '16744780972470.3875544761054017'
+        definitionId: atomicString
+        parentSlotId: '16744780850000.08991730733256009'
+        styles:
+          xl:
+            visible: true
+        properties:
+          name: atomicString3
+          prop: last_name
+          primaryKey: false
+          width: 120
+          filter: true
+        index: 3
+        slots: []
+      - id: '16744780972470.07517172976780784'
+        definitionId: atomicString
+        parentSlotId: '16744780850000.08991730733256009'
+        styles:
+          xl:
+            visible: true
+        properties:
+          name: atomicString4
+          prop: email
+          primaryKey: false
+          inputType: email
+          width: 120
+          filter: true
+        index: 4
+        slots: []
+      - id: '16744780972470.2918247258013409'
+        definitionId: atomicString
+        parentSlotId: '16744780850000.08991730733256009'
+        styles:
+          xl:
+            visible: true
+        properties:
+          name: atomicString5
+          prop: country
+          primaryKey: false
+          width: 120
+          filter: true
+        index: 5
+        slots: []
+      - id: '16744780972480.9920667689792491'
+        definitionId: atomicSelect
+        parentSlotId: '16744780850000.08991730733256009'
+        styles:
+          xl:
+            visible: true
+        properties:
+          name: atomicSelect
+          prop: state
+          primaryKey: false
+          options:
+            value:
+              - value: New York
+                color: primary
+                __UIBAKERY__SYSTEM_ID__: '16744780972470.800831863904135'
+              - value: Victoria
+                color: success
+                __UIBAKERY__SYSTEM_ID__: '16744780972470.12670632072291688'
+              - value: CA
+                color: warning
+                __UIBAKERY__SYSTEM_ID__: '16744780972470.7255506910464962'
+              - value: NY
+                color: danger
+                __UIBAKERY__SYSTEM_ID__: '16744780972470.9208194550173925'
+              - value: PA
+                color: info
+                __UIBAKERY__SYSTEM_ID__: '16744780972470.6062882883470513'
+              - value: CT
+                color: basic
+                __UIBAKERY__SYSTEM_ID__: '16744780972470.7868146569888976'
+              - value: MA
+                color: primary-light
+                __UIBAKERY__SYSTEM_ID__: '16744780972470.9684195098005026'
+              - value: Osaka
+                color: success-light
+                __UIBAKERY__SYSTEM_ID__: '16744780972470.2663102721163546'
+              - value: BC
+                color: warning-light
+                __UIBAKERY__SYSTEM_ID__: '16744780972470.06375904547966393'
+              - value: Québec
+                color: danger-light
+                __UIBAKERY__SYSTEM_ID__: '16744780972470.8191161778810887'
+            dataValue: |-
+              [
+                {
+                  value: 'New York',
+                  color: 'primary'
+                },
+                {
+                  value: 'Victoria',
+                  color: 'success'
+                },
+                {
+                  value: 'CA',
+                  color: 'warning'
+                },
+                {
+                  value: 'NY',
+                  color: 'danger'
+                },
+                {
+                  value: 'PA',
+                  color: 'info'
+                },
+                {
+                  value: 'CT',
+                  color: 'basic'
+                },
+                {
+                  value: 'MA',
+                  color: 'primary-light'
+                },
+                {
+                  value: 'Osaka',
+                  color: 'success-light'
+                },
+                {
+                  value: 'BC',
+                  color: 'warning-light'
+                },
+                {
+                  value: 'Québec',
+                  color: 'danger-light'
+                }
+              ]
+            withData: false
+          width: 120
+          filter: true
+        index: 6
+        slots: []
+      - id: '16744780972480.7714837683423406'
+        definitionId: atomicString
+        parentSlotId: '16744780850000.08991730733256009'
+        styles:
+          xl:
+            visible: false
+        properties:
+          name: atomicString6
+          prop: city
+          primaryKey: false
+          width: 120
+          filter: true
+        index: 7
+        slots: []
+      - id: '16744780972480.6994318419784291'
+        definitionId: atomicString
+        parentSlotId: '16744780850000.08991730733256009'
+        styles:
+          xl:
+            visible: false
+        properties:
+          name: atomicString7
+          prop: address_line1
+          primaryKey: false
+          width: 120
+          filter: true
+        index: 8
+        slots: []
+      - id: '16744780972480.7557348865192262'
+        definitionId: atomicString
+        parentSlotId: '16744780850000.08991730733256009'
+        styles:
+          xl:
+            visible: false
+        properties:
+          name: atomicString8
+          prop: address_line2
+          primaryKey: false
+          width: 120
+          filter: true
+        index: 9
+        slots: []
+      - id: '16744780972480.06171947611211359'
+        definitionId: atomicString
+        parentSlotId: '16744780850000.08991730733256009'
+        styles:
+          xl:
+            visible: false
+        properties:
+          name: atomicString9
+          prop: postal_code
+          primaryKey: false
+          width: 120
+          filter: true
+        index: 10
+        slots: []
+      - id: '16744780972480.8456333981594559'
+        definitionId: atomicString
+        parentSlotId: '16744780850000.08991730733256009'
+        styles:
+          xl:
+            visible: false
+        properties:
+          name: atomicString10
+          prop: phone
+          primaryKey: false
+          width: 120
+          filter: true
+        index: 11
+        slots: []
+      - id: '16744780972480.4984317609030626'
+        definitionId: atomicNumber
+        parentSlotId: '16744780850000.08991730733256009'
+        styles:
+          xl:
+            visible: false
+        properties:
+          name: atomicNumber2
+          prop: credit_limit
+          primaryKey: false
+          width: 60
+          filter: true
+        index: 12
+        slots: []
+      - id: '16744780972480.3543075310624417'
+        definitionId: atomicDateTime
+        parentSlotId: '16744780850000.08991730733256009'
+        styles:
+          xl:
+            visible: false
+        properties:
+          name: atomicDateTime
+          prop: created_at
+          primaryKey: false
+          timeFormat:
+            value: ''
+            dataValue: HH:mm
+            withData: false
+          width: 120
+          filter: true
+        index: 13
+        slots: []

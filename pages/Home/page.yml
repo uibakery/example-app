@@ -1,0 +1,26 @@
+id: '1'
+name: Home
+url: home
+index: 0
+slots:
+  - id: '1'
+    name: content
+    bindings: {}
+    children:
+      - id: '1'
+        definitionId: grid
+        parentSlotId: '1'
+        index: 0
+        styles: {}
+        properties:
+          name: grid
+          pageTitle: '{{app.name}} - {{activeRoute.name}}'
+        actions: {}
+        slots:
+          - id: '2'
+            name: content
+            bindings: {}
+            children:
+              - components/usersTable.yml
+              - components/input.yml
+              - components/button.yml

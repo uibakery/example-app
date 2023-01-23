@@ -1,0 +1,21 @@
+id: '16744781122530.3373692657434211'
+definitionId: stringEdit
+parentSlotId: '2'
+styles: {}
+properties:
+  name: input
+  gridItem:
+    x: 0
+    y: 0
+    w: 5
+    h: 2
+    maxH: 3
+    minH: 2
+    minW: 2
+    componentId: '16744781122530.3373692657434211'
+  labelConfig:
+    text: Search
+    position: horizontal
+    align: left
+index: 1
+slots: []
