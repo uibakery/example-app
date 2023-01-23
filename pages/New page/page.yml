@@ -1,0 +1,24 @@
+id: '16744801946300.6763365249502826'
+name: New page
+url: new-page
+roleIds: []
+disableInMenu: false
+parentPageId: ''
+index: 1
+slots:
+  - id: '16744801946300.04182926416237276'
+    name: content
+    children:
+      - id: '16744801946300.03764417011864163'
+        definitionId: grid
+        parentSlotId: '16744801946300.04182926416237276'
+        styles: {}
+        properties:
+          name: new-page
+          pageTitle: '{{app.name}} - {{activeRoute.name}}'
+        index: 0
+        slots:
+          - id: '16744801946310.7861357878459325'
+            name: content
+            children:
+              - components/table.yml
